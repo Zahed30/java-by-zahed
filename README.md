@@ -1,4 +1,4 @@
 # java-by-zahed
-Include all your Java basics, OOP, projects.
+Include all Java basics, OOP, projects.
 <br>
-Auther -MD Zahed Hussain
+Author -MD Zahed Hussain
