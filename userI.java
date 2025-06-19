@@ -1,3 +1,4 @@
+// this shows how to take user input
 import java.util.Scanner;
 
 public class userI {
