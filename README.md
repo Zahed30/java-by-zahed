@@ -1,7 +1,7 @@
 # java-by-zahed
 Include all Java basics, OOP, projects.
 <br>
-Java Day 1 – Variables & User Input
+## Java Day 1 – Variables & User Input
 
 This repo contains basic Java programs that demonstrate:
 
