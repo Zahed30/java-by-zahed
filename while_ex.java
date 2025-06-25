@@ -6,7 +6,7 @@ public class while_ex {
         Scanner scanner = new Scanner(System.in);
         
         // EXAMPLE 1
-        //it will work until you input your name
+        //it will work until you input your name!
         
         String name = "";
         
