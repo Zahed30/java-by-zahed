@@ -27,10 +27,10 @@ This repo contains basic Java programs that demonstrate:
 
 This day covers Java conditional control structures:
 
-- ✅ `if-else` statement
-- ✅ Nested `if-else` logic
-- ✅ `switch` statement for multi-way decisions
-- ✅ Ternary operator for compact conditions
+- `if-else` statement
+- Nested `if-else` logic
+- `switch` statement for multi-way decisions
+- Ternary operator for compact conditions
 
 ---
 
@@ -44,6 +44,32 @@ This day covers Java conditional control structures:
 | `Ternary.java`     | Uses ternary operator for conditional assignment |
 
 ---
+---
+
+## 📅 Java Day 3 – Loops, Switch, Break, Nested Loops
+
+This day focuses on Java looping constructs and flow control within loops:
+
+- `for` loop
+- `while` loop
+- `do-while` loop
+- `switch` with break statement
+- Nested loops for pattern-based or multi-level logic
+
+---
+
+## 📂 Files
+
+| File Name            | Description                                        |
+|----------------------|----------------------------------------------------|
+| `for_ex.java`        | Demonstrates counting with a `for` loop            |
+| `while_ex.java`      | Uses `while` loop for conditional repetition       |
+| `do_while.java`      | Executes block at least once using `do-while`      |
+| `break_cont.java`    | `continue` statement with `break` to avoid fallthrough |
+| `nested_loop.java`   | Example of nested loops (e.g., pattern printing)   |
+
+---
+
 
 
 
