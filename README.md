@@ -70,7 +70,32 @@ This day focuses on Java looping constructs and flow control within loops:
 
 ---
 
+## 📅 Java Day 4 – Mini Projects: Random Guessing Game & Dice Roller 🎮🎲
 
+Today I built two beginner-friendly mini projects to apply core Java skills:
+
+### Concepts Practiced:
+- `Random` class from `java.util` for number generation
+- `Scanner` class for user input
+- `if-else`, break, and replay mechanics
+
+---
+
+## 📂 Files
+
+| File Name           | Description                                          |
+|--------------------|------------------------------------------------------|
+| `RandomGuess.java` | A guessing game where the user has limited chances to guess a randomly generated number |
+| `diceroller.java`  | Simulates a dice roll, giving a random number between 1 and 6 |
+
+---
+
+## 🧠 Skills Gained
+- Applied real logic with conditions and loops
+- Understood how to write interactive CLI-based Java programs
+- Built confidence through hands-on mini projects
+
+---
 
 
 
