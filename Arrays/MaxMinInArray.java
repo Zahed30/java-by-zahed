@@ -6,7 +6,7 @@ public class MaxMinInArray {
         int[] arr = new int[5];  
 
         System.out.print("Enter 5 numbers:");
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++){
             arr[i] = scanner.nextInt();  
         }
         int min = arr[0];
