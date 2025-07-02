@@ -96,6 +96,33 @@ Today I built two beginner-friendly mini projects to apply core Java skills:
 - Built confidence through hands-on mini projects
 
 ---
+# 📁 Java: Arrays (Day 5)
+
+### 🔸 Topics Practiced:
+- 1D Array declaration and initialization
+- Taking array input using Scanner
+- Finding maximum, minimum
+- Reversing and summing array elements
+
+---
+
+### 📂 Files
+
+| File Name             | Description                                     |
+|----------------------|-------------------------------------------------|
+| `ArrayInput.java`     | Takes array input using Scanner                |
+| `SumOfArray.java`     | Calculates sum of all elements                 |
+| `MaxMinInArray.java`  | Finds the max and min from an array            |
+| `ReverseArray.java`   | Reverses the order of array elements           |
+
+---
+
+### 🧠 Concepts Used
+- `for` loops
+- `Scanner` class
+- Array indexing
+- Basic logic building
+
 
 
 
