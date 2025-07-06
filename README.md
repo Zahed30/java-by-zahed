@@ -123,6 +123,24 @@ Today I built two beginner-friendly mini projects to apply core Java skills:
 - Array indexing
 - Basic logic building
 
+# 📁 Java: Strings (Day 6)
+
+### 🔸 Topics Covered:
+
+- String declaration and initialization
+- String methods: `length()`, `charAt()`, `equals()`, `concat()`, etc.
+- Palindrome check using loop
+- Practice string manipulation problems
+
+---
+
+### 📂 Files:
+
+| File                  | Description                                 |
+|------------------------|---------------------------------------------|
+| `StringBasic.java`     | Basic string operations                     |
+| `StringMethods.java`   | Demonstrates common string methods          |
+| `StringProblems.java`  | Palindrome check with string reversal       |
 
 
 

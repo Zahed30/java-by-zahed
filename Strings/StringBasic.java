@@ -1,4 +1,4 @@
- public class StringBasic {
+public class StringBasic {
     public static void main(String[] args) {
         String name = "Zahed";
         System.out.println("Name: " + name);
