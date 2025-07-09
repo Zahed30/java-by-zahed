@@ -3,8 +3,8 @@
 > Include all Java basics, OOP, and mini projects.
 
 ---
-
-## 📅 Java Day 1 – Variables, User Input, Arithmetic Operators
+## 📁 01.basics (Day 1)
+## Variables, User Input, Arithmetic Operators
 
 This repo contains basic Java programs that demonstrate:
 
@@ -22,7 +22,7 @@ This repo contains basic Java programs that demonstrate:
 | `User1.java`     | Reads user input from the console                   |
 | `Arithmetic.java`| Performs addition, subtraction, multiplication, division, and modulus |
 
-
+📁 02.Controlflow(Day 2)
 ## 📅 Java Day 2 – If-Else, Nested If-Else, Switch, Ternary Operator
 
 This day covers Java conditional control structures:
@@ -44,8 +44,6 @@ This day covers Java conditional control structures:
 | `Ternary.java`     | Uses ternary operator for conditional assignment |
 
 ---
----
-
 ## 📅 Java Day 3 – Loops, Switch, Break, Nested Loops
 
 This day focuses on Java looping constructs and flow control within loops:
@@ -57,7 +55,6 @@ This day focuses on Java looping constructs and flow control within loops:
 - Nested loops for pattern-based or multi-level logic
 
 ---
-
 ## 📂 Files
 
 | File Name            | Description                                        |
@@ -69,8 +66,10 @@ This day focuses on Java looping constructs and flow control within loops:
 | `nested_loop.java`   | Example of nested loops (e.g., pattern printing)   |
 
 ---
+---
+##📁 03.Mini-projects (Day 4)
 
-## 📅 Java Day 4 – Mini Projects: Random Guessing Game & Dice Roller 🎮🎲
+## Mini Projects: Random Guessing Game & Dice Roller 🎮🎲
 
 Today I built two beginner-friendly mini projects to apply core Java skills:
 
@@ -96,7 +95,7 @@ Today I built two beginner-friendly mini projects to apply core Java skills:
 - Built confidence through hands-on mini projects
 
 ---
-# 📁 Java: Arrays (Day 5)
+# 📁 04.Arrays (Day 5)
 
 ### 🔸 Topics Practiced:
 - 1D Array declaration and initialization
@@ -123,7 +122,7 @@ Today I built two beginner-friendly mini projects to apply core Java skills:
 - Array indexing
 - Basic logic building
 
-# 📁 Java: Strings (Day 6)
+# 📁 05.Strings (Day 6)
 
 ### 🔸 Topics Covered:
 
