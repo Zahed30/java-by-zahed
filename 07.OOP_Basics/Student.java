@@ -1,19 +1,41 @@
-public class Student {
-    String name;
-    int roll;
-    float marks;
+ public class Student {
+    // private data members
+    private String name;
+    private int age;
+    private int rollNumber;
 
-    Student(String name, int roll, float marks) {
-        this.name = name;
-        this.roll = roll;
-        this.marks = marks;
+    // public getters
+    public String getName() {
+        return name;
     }
 
-    void display() {
+    public int getAge() {
+        return age;
+    }
+
+    public int getRollNumber() {
+        return rollNumber;
+    }
+
+    // public setters
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        if (age > 0) {
+            this.age = age;
+        }
+    }
+
+    public void setRollNumber(int rollNumber) {
+        this.rollNumber = rollNumber;
+    }
+
+    // method to display info
+    public void displayInfo() {
         System.out.println("Name: " + name);
-        System.out.println("Roll: " + roll);
-        System.out.println("Marks: " + marks);
-        System.out.println("-------------------");
+        System.out.println("Age: " + age);
+        System.out.println("Roll Number: " + rollNumber);
     }
 }
-    
