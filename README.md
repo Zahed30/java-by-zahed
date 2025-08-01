@@ -165,7 +165,8 @@ Practice function-based problems
 | `StringProblems.java`  | Palindrome check with string reversal       |
 
 <br>
-## 07.OOP_Basics-  (Day 7)
+
+## 07.OOP_Basics -  (Day 7)
 
 This folder contains an example of **Encapsulation** in Java using a `Student` class.  
 Encapsulation is one of the 4 main pillars of Object-Oriented Programming (OOP) in Java.
