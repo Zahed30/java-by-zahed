@@ -122,7 +122,30 @@ Today I built two beginner-friendly mini projects to apply core Java skills:
 - Array indexing
 - Basic logic building
 
-# 📁 05.Strings (Day 6)
+
+# 📁 05.Functions (Day 5)
+🔸 Topics Covered:
+Method declaration and calling
+
+Passing parameters and return types
+
+Method Overloading
+
+Recursion basics
+
+Practice function-based problems
+
+### 📂 Files:
+| File                   | Description                                   |
+| ---------------------- | --------------------------------------------- |
+| `AddNumbers.java`      | Adds two numbers using a method               |
+| `CheckEven.java`       | Checks if a number is even or odd             |
+| `Factorial.java`       | Finds factorial using recursion               |
+| `OverloadingDemo.java` | Demonstrates method overloading with examples |
+
+  
+
+# 📁 06.Strings (Day 6)
 
 ### 🔸 Topics Covered:
 
@@ -141,6 +164,42 @@ Today I built two beginner-friendly mini projects to apply core Java skills:
 | `StringMethods.java`   | Demonstrates common string methods          |
 | `StringProblems.java`  | Palindrome check with string reversal       |
 
+<br>
+## 07.OOP_Basics-  (Day 7)
+
+This folder contains an example of **Encapsulation** in Java using a `Student` class.  
+Encapsulation is one of the 4 main pillars of Object-Oriented Programming (OOP) in Java.
+---
+
+## ✅ What is Encapsulation?
+
+Encapsulation is the process of wrapping **data (variables)** and **code (methods)** into a single unit (class) and **restricting direct access** to some of the object's components.
+
+This is done using:
+- `private` access modifier for variables
+- `public` getters and setters to access and modify those variables
+
+---
+
+## 📂 Files Included
+
+### 🔸 `Student.java`
+- Has private fields: `name`, `age`, `rollNumber`
+- Uses `get` and `set` methods to control access
+- Includes a method `displayInfo()` to show student details
+
+### 🔸 `Main.java`
+- Creates a `Student` object
+- Sets values using setters
+- Displays the values using the custom method
+
+---
+
+## 🔧 How to Run
+
+```bash
+javac Student.java Main.java
+java Main
 
 
 
