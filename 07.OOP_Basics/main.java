@@ -1,10 +1,13 @@
-public class main{
+ public class Main {
     public static void main(String[] args) {
-       Student s1 = new Student("Zahed", 217008, 91.5f);
-       Student s2 = new Student("habiba", 214004, 94.2f);
+        Student s1 = new Student();
 
-       s1.display();
-       s2.display();
+        // using setters to set data
+        s1.setName("Zahed");
+        s1.setAge(19);
+        s1.setRollNumber(214004);
+
+        // displaying info
+        s1.displayInfo();
     }
-    
 }
