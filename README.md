@@ -202,8 +202,8 @@ javac Student.java Main.java
 java Main
 ```
 ---
-
-## 📅 Day 9: Java OOP – Inheritance
+# 📁 09.OOP_Inheritance (Day 8)
+## 📅 Day 8: Java OOP – Inheritance
 📘 Concepts Covered
 What is Inheritance?
 Inheritance allows one class (child/subclass) to acquire properties and behaviors (fields and methods) of another class (parent/superclass).
