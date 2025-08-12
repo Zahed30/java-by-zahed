@@ -194,7 +194,6 @@ This is done using:
 - Sets values using setters
 - Displays the values using the custom method
 
----
 
 ## 🔧 How to Run
 
@@ -202,6 +201,38 @@ This is done using:
 javac Student.java Main.java
 java Main
 ```
+---
+# 📁 09.OOP_Inheritance (Day 8)
+## 📅 Day 8: Java OOP – Inheritance
+📘 Concepts Covered
+What is Inheritance?
+Inheritance allows one class (child/subclass) to acquire properties and behaviors (fields and methods) of another class (parent/superclass).
+
+## Types of Inheritance
+
+Single Inheritance – One child class inherits from one parent class.
+
+Multilevel Inheritance – A class inherits from a child class, making a chain.
+
+Hierarchical Inheritance – Multiple classes inherit from the same parent class.
+
+# super Keyword
+
+Used to refer to the parent class constructor or methods.
+
+Useful for reusing parent logic in child classes.
+
+# Method Overriding
+
+When a subclass provides a specific implementation of a method that already exists in the parent class.
+
+### 📂 Files:
+| File          | Description                                   |
+| ------------- | --------------------------------------------- |
+| `Animal.java` | Base class with a `makeSound()` method        |
+| `Dog.java`    | Subclass of `Animal`, overrides `makeSound()` |
+| `Cat.java`    | Subclass of `Animal`, overrides `makeSound()` |
+| `Main.java`   | Creates objects and demonstrates inheritance  |
 
 
 **MD Zahed Hussain**  
