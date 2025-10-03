@@ -3,7 +3,7 @@
 > Include all Java basics, OOP, and mini projects.
 
 ---
-## 📁 01.basics (Day 1)
+## 📁 01.basics 
 ## Variables, User Input, Arithmetic Operators
 
 This repo contains basic Java programs that demonstrate:
@@ -22,7 +22,7 @@ This repo contains basic Java programs that demonstrate:
 | `User1.java`     | Reads user input from the console                   |
 | `Arithmetic.java`| Performs addition, subtraction, multiplication, division, and modulus |
 
-📁 02.Controlflow(Day 2)
+# 📁 02.Controlflow
 ## 📅 Java Day 2 – If-Else, Nested If-Else, Switch, Ternary Operator
 
 This day covers Java conditional control structures:
@@ -67,7 +67,7 @@ This day focuses on Java looping constructs and flow control within loops:
 
 ---
 ---
-##📁 03.Mini-projects (Day 4)
+# 📁 03.Mini-projects 
 
 ## Mini Projects: Random Guessing Game & Dice Roller 🎮🎲
 
@@ -95,7 +95,7 @@ Today I built two beginner-friendly mini projects to apply core Java skills:
 - Built confidence through hands-on mini projects
 
 ---
-# 📁 04.Arrays (Day 5)
+# 📁 04.Arrays  
 
 ### 🔸 Topics Practiced:
 - 1D Array declaration and initialization
@@ -123,7 +123,7 @@ Today I built two beginner-friendly mini projects to apply core Java skills:
 - Basic logic building
 
 
-# 📁 05.Functions (Day 5)
+# 📁 05.Functions 
 🔸 Topics Covered:
 Method declaration and calling
 
@@ -145,7 +145,7 @@ Practice function-based problems
 
   
 
-# 📁 06.Strings (Day 6)
+# 📁 06.Strings  
 
 ### 🔸 Topics Covered:
 
@@ -166,7 +166,7 @@ Practice function-based problems
 
 <br>
 
-## 07.OOP_Basics -  (Day 7)
+## 07.OOP_Basics 
 
 This folder contains an example of **Encapsulation** in Java using a `Student` class.  
 Encapsulation is one of the 4 main pillars of Object-Oriented Programming (OOP) in Java.
@@ -202,8 +202,9 @@ javac Student.java Main.java
 java Main
 ```
 ---
-# 📁 09.OOP_Inheritance (Day 8)
-## 📅 Day 8: Java OOP – Inheritance
+# 📁 08.OOP_Inheritance 
+
+##  Java OOP – Inheritance
 📘 Concepts Covered
 What is Inheritance?
 Inheritance allows one class (child/subclass) to acquire properties and behaviors (fields and methods) of another class (parent/superclass).
@@ -233,6 +234,69 @@ When a subclass provides a specific implementation of a method that already exis
 | `Dog.java`    | Subclass of `Animal`, overrides `makeSound()` |
 | `Cat.java`    | Subclass of `Animal`, overrides `makeSound()` |
 | `Main.java`   | Creates objects and demonstrates inheritance  |
+
+---
+#  📁 08.OOP_Polymorphism
+
+This folder contains examples of **Polymorphism in Java**.  
+Polymorphism means **many forms** – the same method behaves differently depending on the object.  
+
+---
+
+## 🔑 Key Concepts  
+- **Compile-time Polymorphism (Method Overloading)** → Same method name, different parameter list.  
+- **Run-time Polymorphism (Method Overriding)** → Child class provides its own implementation of a parent method.  
+- **super keyword** → Used to call parent class methods from child class.  
+- **@Override annotation** → Ensures that a method is correctly overriding a parent method.  
+
+---
+
+## 📂 Files  
+
+| File                  | Description |
+|------------------------|-------------|
+| `Shape.java`           | Base class with `area()` method |
+| `Circle.java`          | Overrides `area()` for Circle |
+| `Rectangle.java`       | Overrides `area()` for Rectangle |
+| `Main.java`            | Demonstrates **Run-time Polymorphism** using Shape reference |
+
+--- 
+
+
+# 📁 10.OOP_Abstraction  
+
+This folder contains examples of **Abstraction in Java** using both **Abstract Classes** and **Interfaces**.  
+Abstraction helps to **hide implementation details** and show only the **necessary functionality**.  
+
+---
+
+## 🔑 Key Concepts  
+- **Abstract Class** → Can have abstract (no body) and normal methods (with body).  
+- **Interface** → Only declares methods (blueprint). Implementation must be provided by classes.  
+- **Real-life Example** → You know how to *drive a car* (accelerate, brake), but not how the *engine works internally*.  
+
+---
+
+## 📂 Files  
+
+| File                  | Description |
+|------------------------|-------------|
+| `Shape.java`           | Abstract class containing abstract method `draw()` and concrete method `info()` |
+| `Circle.java`          | Implements `draw()` method for Circle |
+| `Rectangle.java`       | Implements `draw()` method for Rectangle |
+| `Main.java`            | Demonstrates Abstraction with Abstract Class + Runtime Polymorphism |
+| `AnimalInterface.java` | Interface declaring method `sound()` |
+| `Dog.java`             | Implements `sound()` method for Dog |
+| `Cat.java`             | Implements `sound()` method for Cat |
+| `InterfaceMain.java`   | Demonstrates Abstraction using Interface |
+
+---
+
+## ⏳ Time Complexity  
+Abstraction itself is a **concept**, not an algorithm.  
+- Method calls → `O(1)` (constant time).  
+
+---
 
 
 **MD Zahed Hussain**  
