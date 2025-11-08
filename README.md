@@ -67,16 +67,18 @@ This day focuses on Java looping constructs and flow control within loops:
 
 ---
 ---
-# 📁 03.Mini-projects 
+# 📁 03.Mini-projects  
 
-## Mini Projects: Random Guessing Game & Dice Roller 🎮🎲
+## Mini Projects: Random Guessing Game, Dice Roller & Slot Machine 🎮🎲🎰  
 
-Today I built two beginner-friendly mini projects to apply core Java skills:
+Today I built three beginner-friendly mini projects to apply and strengthen my core Java skills through fun and interactive programs.  
 
 ### Concepts Practiced:
-- `Random` class from `java.util` for number generation
-- `Scanner` class for user input
-- `if-else`, break, and replay mechanics
+- `Random` class from `java.util` for generating random numbers and symbols  
+- `Scanner` class for handling user input  
+- `if-else`, `while`, and `break` statements for game logic and replay features  
+- Basic math operations for score and reward calculations  
+- Modular code using methods for cleaner and reusable structure 
 
 ---
 
@@ -86,6 +88,7 @@ Today I built two beginner-friendly mini projects to apply core Java skills:
 |--------------------|------------------------------------------------------|
 | `RandomGuess.java` | A guessing game where the user has limited chances to guess a randomly generated number |
 | `diceroller.java`  | Simulates a dice roll, giving a random number between 1 and 6 |
+| `SlotMachinegame .java`  | Spin the slots and match symbols to win coins|
 
 ---
 
