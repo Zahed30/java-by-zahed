@@ -297,6 +297,27 @@ Abstraction itself is a **concept**, not an algorithm.
 - Method calls → `O(1)` (constant time).  
 
 ---
+# 🧠 Java Exception Handling
+
+This folder contains examples demonstrating how **Java handles runtime errors** using exceptions.
+
+## 🧩 Concepts Covered
+- `try`, `catch`, and `finally` blocks  
+- Handling built-in exceptions like `ArithmeticException`  
+- Creating and throwing **custom exceptions**
+
+## 📂 Files
+1. **ExceptionHandlingDemo.java** – Demonstrates division by zero and use of `try-catch-finally`.
+2. **CustomExceptionDemo.java** – Shows how to create and use a custom exception class.
+
+## ⚙️ How to Run
+```bash
+javac ExceptionHandlingDemo.java
+java ExceptionHandlingDemo
+
+javac CustomExceptionDemo.java
+java CustomExceptionDemo
+
 
 
 **MD Zahed Hussain**  
