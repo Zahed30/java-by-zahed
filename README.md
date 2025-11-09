@@ -339,8 +339,7 @@ They are helpful when working with collections and provide useful methods for da
 - `Integer`, `Double`, and `Character` classes  
 - Demonstrated **manual boxing/unboxing** and **auto-boxing/unboxing**  
 - Used static methods to perform conversions and checks
-
-``` 
+ 
 
 
 
