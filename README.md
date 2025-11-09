@@ -322,6 +322,27 @@ javac CustomExceptionDemo.java
 java CustomExceptionDemo
 
 ```
+# 📁 13.Wrapper 
+
+## Wrapper Classes in Java 🧱  
+
+Today I learned about **Wrapper Classes**, which are used to convert primitive data types into objects.  
+They are helpful when working with collections and provide useful methods for data handling and conversions.  
+
+### Concepts Practiced:
+- Converting **primitive types → objects** (Boxing) and **objects → primitives** (Unboxing)  
+- Using **Auto-boxing** and **Auto-unboxing** (automatic conversion by compiler)  
+- Accessing constants like `Integer.MAX_VALUE`  
+- Using wrapper methods such as `parseInt()`, `isDigit()`, and `valueOf()`  
+
+### Example Practiced:
+- `Integer`, `Double`, and `Character` classes  
+- Demonstrated **manual boxing/unboxing** and **auto-boxing/unboxing**  
+- Used static methods to perform conversions and checks
+
+``` 
+
+
 
 **MD Zahed Hussain**  
 🎓 BCA Final Year | 👨‍💻 Java Learner | 🚀 SDE Aspirant
