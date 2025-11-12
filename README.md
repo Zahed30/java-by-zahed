@@ -169,7 +169,7 @@ Practice function-based problems
 
 <br>
 
-## 07.OOP_Basics 
+## # 📁 07.OOP_Basics 
 
 This folder contains an example of **Encapsulation** in Java using a `Student` class.  
 Encapsulation is one of the 4 main pillars of Object-Oriented Programming (OOP) in Java.
@@ -300,7 +300,7 @@ Abstraction itself is a **concept**, not an algorithm.
 - Method calls → `O(1)` (constant time).  
 
 ---
-# 🧠 Java Exception Handling
+# # 📁 12.Java Exception Handling
 
 This folder contains examples demonstrating how **Java handles runtime errors** using exceptions.
 
