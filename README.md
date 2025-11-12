@@ -339,7 +339,49 @@ They are helpful when working with collections and provide useful methods for da
 - `Integer`, `Double`, and `Character` classes  
 - Demonstrated **manual boxing/unboxing** and **auto-boxing/unboxing**  
 - Used static methods to perform conversions and checks
- 
+---
+
+# 📁 14.Enums  
+
+## Enums in Java 🧩  
+
+Today I learned and practiced **Enums (Enumerations)** in Java — one of the most powerful and type-safe ways to define a fixed set of constants.  
+Enums in Java are **special classes** that can have **fields, methods, and constructors**, not just names.
+
+---
+
+### 🔹 What Are Enums?
+
+- Enums define a **set of named constants**.  
+- Each constant in an enum is an **instance** of that enum type.  
+- They provide **type safety** and are cleaner than using `public static final` constants.  
+
+---
+
+### Concepts Practiced:
+- Defining Enums with fields, methods, and constructors  
+- Using Enums in `switch` statements  
+- Iterating through Enums with `.values()`  
+- Enum methods like `.ordinal()`, `.name()`, `.valueOf()`  
+- Implementing interfaces with Enums  
+
+---
+
+### 💻 Example Practiced:
+- `EnumExample.java` → Enum with constructor, getter, and custom method  
+- `EnumInterfaceExample.java` → Enum implementing an interface and used in a switch-case  
+
+---
+
+### ⚙️ How to Run
+```bash
+javac EnumExample.java
+java EnumExample
+
+javac EnumInterfaceExample.java
+java EnumInterfaceExample
+
+ ```
 
 
 
