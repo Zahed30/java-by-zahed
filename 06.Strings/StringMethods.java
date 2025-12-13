@@ -6,6 +6,8 @@
         System.out.println(s.contains("gram"));
         System.out.println(s.replace('a', '*'));
         System.out.println(s.substring(5, 9));
+        System.out.println(s.t);
     }
-}
+    }
+
 
