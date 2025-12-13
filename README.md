@@ -427,7 +427,7 @@ javac BoundedGenericsExample.java
 java BoundedGenericsExample
 ```
 
-# 📁 12.Generics  
+# 📁 15.Generics  
 
 ## Generics in Java 🧩  
 
@@ -472,8 +472,46 @@ javac BoundedGenericsExample.java
 java BoundedGenericsExample
  ```
 
-## Collection Framework
-- Day 1: List, ArrayList, LinkedList, Comparator
+ # 📁 16.Collection Framework – Day 1 (Core Foundations)
+
+This module covers the **core foundations of Java Collection Framework**, focusing on
+`List` interface and its major implementations.
+
+## 📌 Topics Covered (Day 1)
+
+- Collection Framework overview
+- List Interface
+- ArrayList
+- LinkedList
+- ArrayList vs LinkedList
+- Iteration using Iterator
+- Sorting custom objects using Comparator
+
+## 📂 Programs Included
+
+- `ArrayListDemo` – Basic CRUD operations
+- `LinkedListDemo` – LinkedList specific operations
+- `ArrayListVsLinkedList` – Usage comparison
+- `Student` – Custom object model
+- `SortByMarks` – Sorting using Comparator
+- `SortByName` – Alphabetical sorting
+- `IterationDemo` – Iterator working internally
+
+## 🎯 Key Learnings
+
+- When to use ArrayList vs LinkedList
+- How iteration works internally
+- How sorting works for custom objects
+- Performance considerations in Lists
+
+## 🛠 Tech Stack
+
+- Java
+- Java Collections Framework
+
+---
+
+
 
 **MD Zahed Hussain**  
 🎓 BCA Final Year | 👨‍💻 Java Learner | 🚀 SDE Aspirant
