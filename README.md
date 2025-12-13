@@ -341,6 +341,51 @@ They are helpful when working with collections and provide useful methods for da
 - Used static methods to perform conversions and checks
 ---
 
+# 📁 12.Generics  
+
+## Generics in Java 🧩  
+
+Today I learned and practiced **Generics in Java**, a powerful feature that enables **type-safe**, **reusable**, and **flexible** code.  
+Generics allow classes, interfaces, and methods to operate on **any data type** without losing compile-time type checking.
+
+---
+
+### 🔹 Why Use Generics?
+- Provides **compile-time type safety**
+- Eliminates **type casting**
+- Increases **code reusability**
+- Makes collections and data structures **more flexible and robust**
+
+---
+
+### Concepts Practiced:
+- Defining and using **Generic Classes** (`class Box<T>`)
+- Creating **Generic Methods** (`<T> void printArray(T[] array)`)
+- Using **Bounded Generics** (`extends`, `super`)
+- Working with **Wildcards** (`<?>`, `<? extends T>`, `<? super T>`)
+- Applying Generics to **Collections Framework**
+
+---
+
+### 💻 Examples Practiced:
+1. **GenericExample.java** → Basic generic class with type parameter `T`
+2. **GenericMethodExample.java** → Generic method to print arrays of any type
+3. **BoundedGenericsExample.java** → Demonstrating upper and lower bounds with wildcards
+
+---
+
+### ⚙️ How to Run
+```bash
+javac GenericExample.java
+java GenericExample
+
+javac GenericMethodExample.java
+java GenericMethodExample
+
+javac BoundedGenericsExample.java
+java BoundedGenericsExample
+ ```
+
 
 
 **MD Zahed Hussain**  
