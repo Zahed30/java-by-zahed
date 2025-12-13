@@ -341,6 +341,92 @@ They are helpful when working with collections and provide useful methods for da
 - Used static methods to perform conversions and checks
 ---
 
+# 📁 14.Enums  
+
+## Enums in Java 🧩  
+
+Today I learned and practiced **Enums (Enumerations)** in Java — one of the most powerful and type-safe ways to define a fixed set of constants.  
+Enums in Java are **special classes** that can have **fields, methods, and constructors**, not just names.
+
+---
+
+### 🔹 What Are Enums?
+
+- Enums define a **set of named constants**.  
+- Each constant in an enum is an **instance** of that enum type.  
+- They provide **type safety** and are cleaner than using `public static final` constants.  
+
+---
+
+### Concepts Practiced:
+- Defining Enums with fields, methods, and constructors  
+- Using Enums in `switch` statements  
+- Iterating through Enums with `.values()`  
+- Enum methods like `.ordinal()`, `.name()`, `.valueOf()`  
+- Implementing interfaces with Enums  
+
+---
+
+### 💻 Example Practiced:
+- `EnumExample.java` → Enum with constructor, getter, and custom method  
+- `EnumInterfaceExample.java` → Enum implementing an interface and used in a switch-case  
+
+---
+
+### ⚙️ How to Run
+```bash
+javac EnumExample.java
+java EnumExample
+
+javac EnumInterfaceExample.java
+java EnumInterfaceExample
+```
+
+# 📁 15.Generics  
+
+## Generics in Java 🧩  
+
+Today I learned and practiced **Generics in Java**, a powerful feature that enables **type-safe**, **reusable**, and **flexible** code.  
+Generics allow classes, interfaces, and methods to operate on **any data type** without losing compile-time type checking.
+
+---
+
+### 🔹 Why Use Generics?
+- Provides **compile-time type safety**
+- Eliminates **type casting**
+- Increases **code reusability**
+- Makes collections and data structures **more flexible and robust**
+
+---
+
+### Concepts Practiced:
+- Defining and using **Generic Classes** (`class Box<T>`)
+- Creating **Generic Methods** (`<T> void printArray(T[] array)`)
+- Using **Bounded Generics** (`extends`, `super`)
+- Working with **Wildcards** (`<?>`, `<? extends T>`, `<? super T>`)
+- Applying Generics to **Collections Framework**
+
+---
+
+### 💻 Examples Practiced:
+1. **GenericExample.java** → Basic generic class with type parameter `T`
+2. **GenericMethodExample.java** → Generic method to print arrays of any type
+3. **BoundedGenericsExample.java** → Demonstrating upper and lower bounds with wildcards
+
+---
+
+### ⚙️ How to Run
+```bash
+javac GenericExample.java
+java GenericExample
+
+javac GenericMethodExample.java
+java GenericMethodExample
+
+javac BoundedGenericsExample.java
+java BoundedGenericsExample
+```
+
 # 📁 12.Generics  
 
 ## Generics in Java 🧩  
@@ -386,7 +472,8 @@ javac BoundedGenericsExample.java
 java BoundedGenericsExample
  ```
 
-
+## Collection Framework
+- Day 1: List, ArrayList, LinkedList, Comparator
 
 **MD Zahed Hussain**  
 🎓 BCA Final Year | 👨‍💻 Java Learner | 🚀 SDE Aspirant
